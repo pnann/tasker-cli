@@ -1,0 +1,34 @@
+{
+  "name": "tasker-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool for executing asynchronous JavaScript task trees.",
+  "author": "Paul Nann",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": "lib/index.js",
+  "typings": "tasker-global.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnann/tasker-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pnann/tasker-cli/issues"
+  },
+  "homepage": "https://github.com/pnann/tasker-cli#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "color-support": "^1.1.3",
+    "tasker-lib": "file:../tasker-lib"
+  },
+  "peerDependencies": {
+    "ts-node": "^8.10.1"
+  },
+  "devDependencies": {
+    "@types/color-support": "^1.1.0",
+    "@types/node": "^13.13.5",
+    "typescript": "^3.8.3"
+  }
+}
